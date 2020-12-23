@@ -1,0 +1,80 @@
+{
+  "name": "umi-chrome-extension-template",
+  "version": "1.0.0",
+  "description": "a template for chrome extension development based on umi",
+  "private": true,
+  "author": "Arvin Xu(arvinx@foxmail.com)",
+  "license": "MIT",
+  "homepage": "https://github.com/arvinxx/umi-chrome-extension-template#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/arvinxx/umi-chrome-extension-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arvinxx/umi-chrome-extension-template/issues"
+  },
+  "scripts": {
+    "start": "umi dev",
+    "build": "umi build",
+    "---------  ": "",
+    "test": "umi-test",
+    "test:update": "UPDATE=1 umi-test --update-snapshot",
+    "test:coverage": "umi-test --coverage",
+    "---------    ": "",
+    "clean": "rm -rf es lib dist build coverage e2e/dist packages/.umi .eslintcache",
+    "postinstall": "umi generate tmp",
+    "lint": "npm run lint-eslint",
+    "tsc": "tsc -p tsconfig-check.json",
+    "lint-eslint": "eslint --cache --ext .js,.jsx,.ts,.tsx --format=pretty packages",
+    "lint-staged": "lint-staged",
+    "lint-staged:js": "eslint --cache --ext .js,.jsx,.ts,.tsx --format=pretty",
+    "lint:fix": "eslint --fix --cache --ext .js,.jsx,.ts,.tsx --format=pretty ",
+    "prettier": "prettier -c --write \"**/**\""
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js}": [
+      "eslint -c .eslintrc.js"
+    ],
+    "*.{css,less,scss}": [
+      "stylelint --config .stylelintrc.json"
+    ],
+    "*.{ts,tsx,json,js,css,less,scss,md}": [
+      "prettier --write"
+    ]
+  },
+  "dependencies": {
+    "@ant-design/pro-layout": "^5.0.12",
+    "@umijs/preset-react": "^1.7.8",
+    "antd": "^4.6.6",
+    "prettier": "^1.19.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-intl": "^5.8.3",
+    "umi": "3.3.3",
+    "yorkie": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/generate-json-webpack-plugin": "^0.3.2",
+    "@types/jest": "^26.0.14",
+    "@types/node": "^14.11.2",
+    "@types/react-test-renderer": "^16.9.3",
+    "@types/webpack": "^4.41.22",
+    "@umijs/fabric": "^2.2.2",
+    "@umijs/test": "^3.2.22",
+    "babel-jest": "^26.6.0",
+    "cross-env": "^7.0.0",
+    "eslint": "^7.7.0",
+    "eslint-config-umi": "^1.6.0",
+    "generate-json-webpack-plugin": "^1.0.0",
+    "jest": "26.6.0",
+    "lint-staged": "^10.0.2",
+    "react-test-renderer": "^16.13.1",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^4.0.3"
+  }
+}
