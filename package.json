@@ -1,17 +1,17 @@
 {
-  "name": "umi-chrome-extension-template",
+  "name": "umi-chrome-extensions-template",
   "version": "1.0.0",
-  "description": "a template for chrome extension development based on umi",
+  "description": "a template for chrome extensions development based on umi",
   "private": true,
   "author": "Arvin Xu(arvinx@foxmail.com)",
   "license": "MIT",
-  "homepage": "https://github.com/arvinxx/umi-chrome-extension-template#readme",
+  "homepage": "https://github.com/arvinxx/umi-chrome-extensions-template#readme",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/arvinxx/umi-chrome-extension-template.git"
+    "url": "git+ssh://git@github.com/arvinxx/umi-chrome-extensions-template.git"
   },
   "bugs": {
-    "url": "https://github.com/arvinxx/umi-chrome-extension-template/issues"
+    "url": "https://github.com/arvinxx/umi-chrome-extensions-template/issues"
   },
   "scripts": {
     "start": "umi dev",
