@@ -59,7 +59,7 @@
     "yorkie": "^2.0.0"
   },
   "devDependencies": {
-    "@types/chrome": "^0.0.127",
+    "@types/chrome": "^0.0.126",
     "@types/jest": "^26.0.14",
     "@types/node": "^14.11.2",
     "@types/react-test-renderer": "^16.9.3",
