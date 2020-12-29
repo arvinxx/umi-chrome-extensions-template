@@ -1,12 +1,8 @@
+**注意：因集成插件 [umi-plugin-extension](https://github.com/arvinxx/umi-plugin-extensions) 还未完善,该脚手架模板也不是很完善！完成后会去掉该提示。**
+
 #  Umi Chrome Extensions Template
 
 基于 Umi 的 Chrome 插件开发脚手架。
-
-
-
-**注意：因集成插件 [umi-plugin-extension](https://github.com/arvinxx/umi-plugin-extensions) 还未完善,该脚手架模板也不是很完善！完成后会去掉该提示。**
-
-
 
 ## 特性
 
