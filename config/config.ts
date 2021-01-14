@@ -14,6 +14,9 @@ export default defineConfig({
     },
     background: { scripts: ['@/background/index'] },
     popupUI: '@/pages/popup',
+    contentScripts: [
+      { matches: ['https://github.com/*'], entries: ['@/contentScripts/all'] },
+    ],
     icons: {
       16: 'logo/logo@16.png',
       32: 'logo/logo@32.png',
