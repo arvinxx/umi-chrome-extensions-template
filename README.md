@@ -25,7 +25,7 @@ yarn
 
 🔔 请确保你对 Chrome 插件开发已经有基本的了解，入门推荐：[Chrome 插件(扩展)开发全攻略](https://arvinxx.github.io/umi-plugin-extensions/#/tutorial)。
 
-如果你对项目的配置有疑问，请查阅 umi-plugin-extension 配置项文档 ➡️ [传送门](https://arvinxx.github.io/umi-plugin-extensions/#/api)。
+如果你对项目的配置有疑问，请查阅 umi-plugin-extension 配置项文档。 ➡️ [传送门](https://arvinxx.github.io/umi-plugin-extensions/#/api)
 
 ### 启动
 
