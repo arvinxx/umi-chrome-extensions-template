@@ -42,7 +42,7 @@ yarn start
 构建生产级别的包直接运行：
 
 ```
-yarn run build
+yarn build
 ```
 
 ## 🤝 贡献 [![PRs Welcome](https://camo.githubusercontent.com/0ff11ed110cfa69f703ef0dcca3cee6141c0a8ef465e8237221ae245de3deb3d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5052732d77656c636f6d652d627269676874677265656e2e7376673f7374796c653d666c61742d737175617265)](http://makeapullrequest.com/)
