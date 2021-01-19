@@ -62,3 +62,7 @@ example/.temp/*
 .eslintcache
 
 dev
+
+dist*
+
+*.zip
