@@ -7,5 +7,6 @@ module.exports = {
     config: '配置',
     release: '自动发布',
     types: '类型',
+    readme: '说明文档',
   },
 };
