@@ -1,5 +1,23 @@
 # umi-chrome-extensions-template 更新日志
 
+# [1.1.0](https://github.com/arvinxx/umi-chrome-extensions-template/compare/v1.0.0...v1.1.0) (2021-01-19)
+
+
+### ✨ Features | 新特性
+
+* **(日志)**: 补充日志文本内容 ([95a4cee](https://github.com/arvinxx/umi-chrome-extensions-template/commit/95a4cee))
+
+
+### 🐛 Bug Fixes | 修复
+
+* **(日志)**: 修正自动生成日志的内容 ([3dc7e85](https://github.com/arvinxx/umi-chrome-extensions-template/commit/3dc7e85))
+
+
+### 📝 Documentation | 文档
+
+* **(license)**: 添加协议 ([2e70a60](https://github.com/arvinxx/umi-chrome-extensions-template/commit/2e70a60))
+* **(说明文档)**: 更新说明文档 ([f603f58](https://github.com/arvinxx/umi-chrome-extensions-template/commit/f603f58))
+
 # 1.0.0 (2021-01-19)
 
 ### ✨ Features | 新特性
