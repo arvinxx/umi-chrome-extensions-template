@@ -30,7 +30,7 @@
     "postinstall": "umi generate tmp",
     "lint": "npm run lint-eslint",
     "tsc": "tsc -p tsconfig-check.json",
-    "lint-eslint": "eslint --cache --ext .js,.jsx,.ts,.tsx --format=pretty packages",
+    "lint-eslint": "eslint --cache --ext .js,.jsx,.ts,.tsx --format=pretty src",
     "lint-staged": "lint-staged",
     "lint-staged:js": "eslint --cache --ext .js,.jsx,.ts,.tsx --format=pretty",
     "lint:fix": "eslint --fix --cache --ext .js,.jsx,.ts,.tsx --format=pretty ",
