@@ -40,15 +40,10 @@ const buildZip = (src: string, dist: string, zipFilename: string) => {
 };
 
 const main = () => {
-  const { name, version } = extractExtensionData();
-  const zipFilename = `${name}-v${version}.zip`;
-  const zipDistName = `${name}.zip`;
+  extractExtensionData();
+  const zipDistName = 'release.zip';
 
   makeDestZipDirIfNotExists();
-
-  buildZip(DEST_DIR, DEST_ZIP_DIR, zipFilename)
-    .then(() => console.info('✅  Build Done with Version!'))
-    .catch(console.error);
 
   buildZip(DEST_DIR, DEST_ZIP_DIR, zipDistName)
     .then(() => console.info('✅  Build Done!'))
