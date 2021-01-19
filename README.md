@@ -1,5 +1,10 @@
 # Umi Chrome Extensions Template
 
+![][version-url] [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release) ![][license-url]
+
+[version-url]: https://img.shields.io/github/v/release/arvinxx/umi-chrome-extensions-template?color=green
+[license-url]: https://img.shields.io/github/license/arvinxx/umi-chrome-extensions-template
+
 基于 Umi 的 Chrome 插件开发脚手架。
 
 ## ✨ 特性
@@ -10,6 +15,7 @@
 - ♻️ **自动重载**： 开发时 `contentScipts` 和 `background` 支持自动刷新;
 - 🔧 **配置收敛**：直接在 `.umi.ts` 或 `config.ts` 设置插件配置；
 - ⛑ **类型安全**： 脚手架由 Typescript 编写，已集成 chrome 插件的类型定义文件。
+- **自动流程**： 使用 `semantic release` 实现语义化版本管理与自动发布流
 
 ## 📦 使用
 
