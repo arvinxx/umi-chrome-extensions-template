@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "a template for chrome extensions development based on umi",
   "private": true,
-  "author": "Arvin Xu(arvinx@foxmail.com)",
+  "author": "Arvin Xu<arvinx@foxmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/arvinxx/umi-chrome-extensions-template#readme",
   "repository": {
@@ -20,6 +20,9 @@
     "test": "umi-test",
     "test:update": "UPDATE=1 umi-test --update-snapshot",
     "test:coverage": "umi-test --coverage",
+    "---------   ": "",
+    "changelog": "conventional-changelog -p gitmoji-config -i CHANGELOG.md -s -r 0",
+    "release": "semantic-release",
     "---------    ": "",
     "clean": "rm -rf es lib dist build coverage e2e/dist packages/.umi .eslintcache",
     "postinstall": "umi generate tmp",
@@ -31,17 +34,12 @@
     "lint:fix": "eslint --fix --cache --ext .js,.jsx,.ts,.tsx --format=pretty ",
     "prettier": "prettier -c --write \"**/**\""
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "*.{ts,tsx,js}": [
       "eslint -c .eslintrc.js"
     ],
     "*.{css,less,scss}": [
-      "stylelint --config .stylelintrc.json"
+      "stylelint   --fix"
     ],
     "*.{ts,tsx,json,js,css,less,scss,md}": [
       "prettier --write"
@@ -51,29 +49,42 @@
     "@ant-design/pro-layout": "^5.0.12",
     "@umijs/preset-react": "^1.7.8",
     "antd": "^4.6.6",
-    "prettier": "^1.19.1",
+    "jquery": "^3.5.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-intl": "^5.8.3",
     "umi": "^3.3.3",
-    "yorkie": "^2.0.0"
+    "umi-plugin-extensions": "*"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/exec": "^5.0.0",
+    "@semantic-release/git": "^9.0.0",
+    "@semantic-release/release-notes-generator": "^9.0.1",
+    "@types/archiver": "^5.1.0",
     "@types/chrome": "^0.0.128",
     "@types/jest": "^26.0.14",
+    "@types/jquery": "^3.5.5",
     "@types/node": "^14.11.2",
     "@types/react-test-renderer": "^16.9.3",
     "@types/webpack": "^4.41.22",
     "@umijs/fabric": "^2.2.2",
     "@umijs/test": "^3.2.22",
+    "archiver": "^5.2.0",
     "babel-jest": "^26.6.0",
+    "@commitlint/cli": "^11.0.0",
+    "commitlint-config-gitmoji": "^2.1.2",
+    "conventional-changelog-cli": "^2.1.1",
+    "conventional-changelog-gitmoji-config": "^1.1.1",
     "cross-env": "^7.0.0",
     "eslint": "^7.7.0",
     "eslint-config-umi": "^1.6.0",
+    "husky": "^4.3.8",
     "jest": "26.6.0",
     "lint-staged": "^10.0.2",
+    "prettier": "^2.2.1",
     "react-test-renderer": "^16.13.1",
-    "typescript": "^4.1.3",
-    "umi-plugin-extensions": "*"
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
   }
 }
