@@ -2,7 +2,7 @@
 
 ![][version-url] [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release) ![][license-url]
 
-[version-url]: https://img.shields.io/github/v/release/arvinxx/umi-chrome-extensions-template?color=green
+[version-url]: https://img.shields.io/github/v/release/arvinxx/umi-chrome-extensions-template
 [license-url]: https://img.shields.io/github/license/arvinxx/umi-chrome-extensions-template
 
 基于 Umi 的 Chrome 插件开发脚手架。
