@@ -70,7 +70,7 @@
     "@types/jquery": "^3.5.5",
     "@types/node": "^14.11.2",
     "@types/react-test-renderer": "^17.0.0",
-    "@types/webpack": "^4.41.22",
+    "@types/webpack": "^5.28.0",
     "@umijs/fabric": "^2.2.2",
     "@umijs/test": "^3.2.22",
     "archiver": "^5.2.0",
