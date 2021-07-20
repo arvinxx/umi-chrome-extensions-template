@@ -80,7 +80,7 @@
     "conventional-changelog-gitmoji-config": "^1.1.1",
     "cross-env": "^7.0.0",
     "eslint": "^7.7.0",
-    "husky": "^4.3.8",
+    "husky": "^7.0.1",
     "jest": "26.6.3",
     "lint-staged": "^10.0.2",
     "prettier": "^2.2.1",
