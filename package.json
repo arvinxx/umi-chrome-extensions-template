@@ -49,7 +49,7 @@
   },
   "dependencies": {
     "@ant-design/pro-layout": "^6.11.1",
-    "@umijs/preset-react": "^1.7.8",
+    "@umijs/preset-react": "^2.1.1",
     "antd": "^4.6.6",
     "jquery": "^3.5.1",
     "react": "^17.0.1",
