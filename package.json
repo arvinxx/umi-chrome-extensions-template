@@ -74,7 +74,7 @@
     "@umijs/fabric": "^2.2.2",
     "@umijs/test": "^3.2.22",
     "archiver": "^5.2.0",
-    "babel-jest": "^26.6.0",
+    "babel-jest": "^28.1.0",
     "commitlint-config-gitmoji": "^2.1.2",
     "conventional-changelog-cli": "^2.1.1",
     "conventional-changelog-gitmoji-config": "^1.1.1",
