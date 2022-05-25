@@ -54,7 +54,7 @@
     "jquery": "^3.5.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-intl": "^5.8.3",
+    "react-intl": "^6.0.3",
     "umi": "^3.3.3",
     "umi-plugin-extensions": "*"
   },
