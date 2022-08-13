@@ -4,7 +4,6 @@ export default defineConfig({
   nodeModulesTransform: {
     type: 'none',
   },
-  locale: { default: 'zh-CN' },
   extensions: {
     name: 'Umi Chrome Extension Template',
     description: '基于 Umi 的 Chrome 插件开发脚手架',
