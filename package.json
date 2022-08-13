@@ -1,23 +1,19 @@
 {
   "name": "umi-chrome-extensions-template",
   "version": "1.2.0",
-  "description": "a template for chrome extensions development based on umi",
   "private": true,
-  "author": "Arvin Xu<arvinx@foxmail.com>",
-  "license": "MIT",
+  "description": "a template for chrome extensions development based on umi",
   "homepage": "https://github.com/arvinxx/umi-chrome-extensions-template#readme",
+  "bugs": {
+    "url": "https://github.com/arvinxx/umi-chrome-extensions-template/issues"
+  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/arvinxx/umi-chrome-extensions-template.git"
   },
-  "bugs": {
-    "url": "https://github.com/arvinxx/umi-chrome-extensions-template/issues"
-  },
+  "license": "MIT",
+  "author": "Arvin Xu<arvinx@foxmail.com>",
   "scripts": {
-    "start": "umi dev",
-    "build": "umi build",
-    "zip": "yarn build && yarn zip:only",
-    "zip:only": "ts-node ./scripts/zip",
     "---------  ": "",
     "test": "umi-test",
     "test:update": "UPDATE=1 umi-test --update-snapshot",
@@ -27,7 +23,7 @@
     "release": "semantic-release",
     "---------    ": "",
     "clean": "rm -rf es lib dist build coverage e2e/dist packages/.umi .eslintcache",
-    "postinstall": "rm pnpm-lock.yaml && umi generate tmp",
+    "postinstall": "rm -rf pnpm-lock.yaml && umi generate tmp",
     "lint": "npm run lint-eslint",
     "tsc": "tsc -p tsconfig-check.json",
     "lint-eslint": "eslint --cache --ext .js,.jsx,.ts,.tsx --format=pretty src",
@@ -73,6 +69,7 @@
     "@types/react-dom": "^18.0.6",
     "@types/webpack": "^4.41.32",
     "@umijs/fabric": "^2.12.2",
+    "@umijs/max": "^4.0.12",
     "@umijs/test": "^3.5.32",
     "archiver": "^5.3.1",
     "commitlint-config-gitmoji": "^2.2.5",
@@ -80,7 +77,7 @@
     "conventional-changelog-gitmoji-config": "^1.4.3",
     "cross-env": "^7.0.3",
     "crx-hotreload": "^1.0.6",
-    "eslint": "^7.32.0",
+    "eslint": "^8.21.0",
     "husky": "^8.0.1",
     "jest": "26.6.3",
     "lint-staged": "^10.5.4",
