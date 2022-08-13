@@ -1,5 +1,17 @@
 # umi-chrome-extensions-template 更新日志
 
+# [1.3.0](https://github.com/arvinxx/umi-chrome-extensions-template/compare/v1.2.0...v1.3.0) (2022-08-13)
+
+
+### ✨ Features
+
+* **杂项**: 使用 umi4 的 lint 与 prettier 规则 ([28c089b](https://github.com/arvinxx/umi-chrome-extensions-template/commit/28c089b))
+
+
+### 🔧 Continuous Integration
+
+* **杂项**: fix ci ([a89cb72](https://github.com/arvinxx/umi-chrome-extensions-template/commit/a89cb72))
+
 # [1.2.0](https://github.com/arvinxx/umi-chrome-extensions-template/compare/v1.1.0...v1.2.0) (2022-08-13)
 
 
