@@ -24,9 +24,6 @@ jobs:
       - name: Install deps
         run: pnpm install
 
-      - name: install
-        run: yarn
-
       - name: Lint
         run: pnpm run lint && pnpm run tsc
 
