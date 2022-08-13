@@ -1,6 +1,6 @@
 {
   "name": "umi-chrome-extensions-template",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "a template for chrome extensions development based on umi",
   "private": true,
   "author": "Arvin Xu<arvinx@foxmail.com>",

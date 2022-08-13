@@ -1,5 +1,37 @@
 # umi-chrome-extensions-template 更新日志
 
+# [1.2.0](https://github.com/arvinxx/umi-chrome-extensions-template/compare/v1.1.0...v1.2.0) (2022-08-13)
+
+
+### ✨ Features
+
+* **杂项**: 更新基础设施 ([7a03f1d](https://github.com/arvinxx/umi-chrome-extensions-template/commit/7a03f1d))
+
+
+### 🎫 Chores
+
+* **ci**: 添加自动合并依赖 ci ([5ebfccb](https://github.com/arvinxx/umi-chrome-extensions-template/commit/5ebfccb))
+* **杂项**: 升级依赖并修正类型问题 ([80005c9](https://github.com/arvinxx/umi-chrome-extensions-template/commit/80005c9))
+* **杂项**: 清理无用模块 ([bf70662](https://github.com/arvinxx/umi-chrome-extensions-template/commit/bf70662))
+
+
+### 🐛 Bug Fixes
+
+* **杂项**: 修正 pnpm 安装模式下会找不到依赖的问题 ([07e0dc4](https://github.com/arvinxx/umi-chrome-extensions-template/commit/07e0dc4))
+* **杂项**: 修正 release 脚本问题 ([4d49172](https://github.com/arvinxx/umi-chrome-extensions-template/commit/4d49172))
+
+
+### 📝 Documentation
+
+* **说明文档**: 更新说明文档 ([39e6f1a](https://github.com/arvinxx/umi-chrome-extensions-template/commit/39e6f1a))
+
+
+### 🔧 Continuous Integration
+
+* **杂项**: fix ci ([981c1c9](https://github.com/arvinxx/umi-chrome-extensions-template/commit/981c1c9))
+* **杂项**: fix ci ([6369328](https://github.com/arvinxx/umi-chrome-extensions-template/commit/6369328))
+* **杂项**: 修正 ci 自动更新 ([53359d7](https://github.com/arvinxx/umi-chrome-extensions-template/commit/53359d7))
+
 # [1.1.0](https://github.com/arvinxx/umi-chrome-extensions-template/compare/v1.0.0...v1.1.0) (2021-01-19)
 
 
