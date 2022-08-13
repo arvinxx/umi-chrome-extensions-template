@@ -26,7 +26,7 @@ module.exports = {
     [
       '@semantic-release/exec',
       {
-        prepareCmd: 'yarn zip',
+        prepareCmd: 'pnpm run zip',
       },
     ],
     [
