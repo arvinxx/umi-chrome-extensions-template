@@ -1,5 +1,12 @@
 # umi-chrome-extensions-template 更新日志
 
+## [1.4.1](https://github.com/arvinxx/umi-chrome-extensions-template/compare/v1.4.0...v1.4.1) (2022-08-27)
+
+
+### 🐛 Bug Fixes
+
+* **杂项**: 修正发布之后的解压文件夹目录 ([d0ba634](https://github.com/arvinxx/umi-chrome-extensions-template/commit/d0ba634))
+
 # [1.4.0](https://github.com/arvinxx/umi-chrome-extensions-template/compare/v1.3.0...v1.4.0) (2022-08-27)
 
 
