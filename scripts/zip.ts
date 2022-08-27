@@ -22,7 +22,12 @@ const makeDestZipDirIfNotExists = () => {
   }
 };
 
-const buildZip = (src: string, dist: string, zipFilename: string) => {
+const buildZip = (
+  src: string,
+  dist: string,
+  folderName: string,
+  zipFilename: string,
+) => {
   console.info(`📦 Building ${zipFilename}...`);
 
   const archive = archiver('zip', { zlib: { level: 9 } });
@@ -30,7 +35,7 @@ const buildZip = (src: string, dist: string, zipFilename: string) => {
 
   return new Promise<void>((resolve, reject) => {
     archive
-      .directory(src, 'power-yuque')
+      .directory(src, folderName)
       .on('error', (err: any) => reject(err))
       .pipe(stream);
 
@@ -45,7 +50,7 @@ const main = () => {
 
   makeDestZipDirIfNotExists();
 
-  buildZip(DEST_DIR, DEST_ZIP_DIR, zipFilename)
+  buildZip(DEST_DIR, DEST_ZIP_DIR, name, zipFilename)
     .then(() => console.info('✅  Build Done!'))
     .catch(console.error);
 };
