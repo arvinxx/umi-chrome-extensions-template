@@ -7,7 +7,7 @@ const archiver = require('archiver');
 const pkg = require('../package.json');
 
 const DEST_DIR = path.join(__dirname, '../dist');
-const DEST_ZIP_DIR = path.join(__dirname, '../dist-zip');
+const DEST_ZIP_DIR = path.join(__dirname, '../release');
 
 const extractExtensionData = () => {
   return {
@@ -30,7 +30,7 @@ const buildZip = (src: string, dist: string, zipFilename: string) => {
 
   return new Promise<void>((resolve, reject) => {
     archive
-      .directory(src, false)
+      .directory(src, 'power-yuque')
       .on('error', (err: any) => reject(err))
       .pipe(stream);
 
@@ -40,12 +40,12 @@ const buildZip = (src: string, dist: string, zipFilename: string) => {
 };
 
 const main = () => {
-  extractExtensionData();
-  const zipDistName = 'release.zip';
+  const { name, version } = extractExtensionData();
+  const zipFilename = `${name}.v${version}.zip`;
 
   makeDestZipDirIfNotExists();
 
-  buildZip(DEST_DIR, DEST_ZIP_DIR, zipDistName)
+  buildZip(DEST_DIR, DEST_ZIP_DIR, zipFilename)
     .then(() => console.info('✅  Build Done!'))
     .catch(console.error);
 };

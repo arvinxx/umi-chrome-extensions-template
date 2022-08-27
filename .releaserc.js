@@ -32,12 +32,7 @@ module.exports = {
     [
       '@semantic-release/github',
       {
-        assets: [
-          {
-            path: 'dist-zip/release.zip',
-            label: 'release.${nextRelease.gitTag}.zip',
-          },
-        ],
+        assets: ['release'],
       },
     ], // 推送代码回到GitHub
     [
