@@ -1,5 +1,13 @@
 # umi-chrome-extensions-template 更新日志
 
+# [1.4.0](https://github.com/arvinxx/umi-chrome-extensions-template/compare/v1.3.0...v1.4.0) (2022-08-27)
+
+
+### ✨ Features
+
+* **杂项**: 优化发布链路 ([14ac2c0](https://github.com/arvinxx/umi-chrome-extensions-template/commit/14ac2c0))
+* **杂项**: 优化发布链路 ([4d4b4b9](https://github.com/arvinxx/umi-chrome-extensions-template/commit/4d4b4b9))
+
 # [1.3.0](https://github.com/arvinxx/umi-chrome-extensions-template/compare/v1.2.0...v1.3.0) (2022-08-13)
 
 
