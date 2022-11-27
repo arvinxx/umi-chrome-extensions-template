@@ -1,6 +1,6 @@
 {
   "name": "umi-chrome-extensions-template",
-  "version": "1.4.1",
+  "version": "1.5.0",
   "private": true,
   "description": "a template for chrome extensions development based on umi",
   "homepage": "https://github.com/arvinxx/umi-chrome-extensions-template#readme",

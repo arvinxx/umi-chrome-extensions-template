@@ -1,5 +1,21 @@
 # umi-chrome-extensions-template 更新日志
 
+# [1.5.0](https://github.com/arvinxx/umi-chrome-extensions-template/compare/v1.4.1...v1.5.0) (2022-11-27)
+
+
+### ✨ Features
+
+* **杂项**: 升级到 antd v5 ([6299167](https://github.com/arvinxx/umi-chrome-extensions-template/commit/6299167))
+* **杂项**: 升级到 umi4 ([c9bb7de](https://github.com/arvinxx/umi-chrome-extensions-template/commit/c9bb7de))
+
+
+### 🎫 Chores
+
+* **杂项**: 升级 lint 配置 ([7383e54](https://github.com/arvinxx/umi-chrome-extensions-template/commit/7383e54))
+* **杂项**: 升级到 react18 ([b04152e](https://github.com/arvinxx/umi-chrome-extensions-template/commit/b04152e))
+* **杂项**: 移除 less ([4619564](https://github.com/arvinxx/umi-chrome-extensions-template/commit/4619564))
+* **杂项**: 移除 pnpm lock ([a0ed40f](https://github.com/arvinxx/umi-chrome-extensions-template/commit/a0ed40f))
+
 ## [1.4.1](https://github.com/arvinxx/umi-chrome-extensions-template/compare/v1.4.0...v1.4.1) (2022-08-27)
 
 
