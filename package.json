@@ -28,12 +28,9 @@
     "---------    ": "",
     "clean": "rm -rf es lib dist build coverage e2e/dist packages/.umi .eslintcache",
     "postinstall": "max setup",
-    "lint": "npm run lint-eslint",
+    "lint": "max lint",
     "tsc": "tsc -p tsconfig-check.json",
-    "lint-eslint": "eslint --cache --ext .js,.jsx,.ts,.tsx --format=pretty src",
     "lint-staged": "lint-staged",
-    "lint-staged:js": "eslint --cache --ext .js,.jsx,.ts,.tsx --format=pretty",
-    "lint:fix": "eslint --fix --cache --ext .js,.jsx,.ts,.tsx --format=pretty ",
     "prettier": "prettier -c --write \"**/**\""
   },
   "lint-staged": {
