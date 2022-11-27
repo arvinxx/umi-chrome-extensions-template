@@ -48,7 +48,7 @@
     "antd": "^5",
     "react": "^18",
     "react-dom": "^18",
-    "umi-plugin-extensions": "^1.0.0-beta.1"
+    "umi-plugin-extensions": "^1.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^17",
