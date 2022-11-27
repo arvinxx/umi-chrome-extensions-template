@@ -2,7 +2,7 @@
   "include": ["src", "types", "config", "scripts"],
   "compilerOptions": {
     /* Basic Options */
-    "jsx": "react",
+    "jsx": "react-jsx",
 
     /* Strict Type-Checking Options */
     "strict": true,
