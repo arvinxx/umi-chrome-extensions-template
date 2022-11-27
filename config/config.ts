@@ -1,9 +1,7 @@
-import { defineConfig } from 'umi';
+import { defineConfig } from '@umijs/max';
 
 export default defineConfig({
-  nodeModulesTransform: {
-    type: 'none',
-  },
+  plugins: [require.resolve('umi-plugin-extensions')],
   extensions: {
     name: 'Umi Chrome Extension Template',
     description: '基于 Umi 的 Chrome 插件开发脚手架',
@@ -11,7 +9,7 @@ export default defineConfig({
       page: '@/pages/options',
       openInTab: true,
     },
-    background: { scripts: ['@/background/index'] },
+    background: { service_worker: '@/background/index' },
     popupUI: '@/pages/popup',
     contentScripts: [
       { matches: ['https://github.com/*'], entries: ['@/contentScripts/all'] },
