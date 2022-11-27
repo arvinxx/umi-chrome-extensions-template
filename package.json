@@ -48,10 +48,9 @@
     ]
   },
   "dependencies": {
-    "@ant-design/pro-layout": "^6.38.17",
-    "antd": "^4.22.4",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "antd": "^5",
+    "react": "^18",
+    "react-dom": "^18",
     "umi-plugin-extensions": "^1.0.0-beta.1"
   },
   "devDependencies": {
