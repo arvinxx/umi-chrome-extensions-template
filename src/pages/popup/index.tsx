@@ -1,8 +1,6 @@
-import React from 'react';
-
 import styles from './style.less';
 
-const Index = () => {
+const Popup = () => {
   return (
     <div className={styles.app}>
       <h1 className={styles.title}>popup page</h1>
@@ -10,4 +8,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default Popup;
